@@ -1,0 +1,165 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f8f1e9; /* Krem lembut untuk kenyamanan mata */
+      color: #2c1e0f; /* Cokelat tua untuk kontras */
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background-color: #6b3e1b; /* Cokelat kurma yang elegan */
+      padding: 15px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header img {
+      width: 120px; /* Logo lebih besar untuk kejelasan */
+    }
+
+    /* Problem Section */
+    .problem-section {
+      padding: 100px 20px 30px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .problem-section h1 {
+      font-size: 28px; /* Judul besar untuk keterbacaan */
+      color: #6b3e1b;
+      margin-bottom: 15px;
+    }
+
+    .problem-section p {
+      font-size: 18px; /* Teks besar untuk kenyamanan */
+      margin-bottom: 20px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .problem-section img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    /* Solve Section */
+    .solve-section {
+      padding: 30px 20px;
+      background-color: #f8e1c9; /* Krem lembut */
+      text-align: center;
+    }
+
+    .solve-section h2 {
+      font-size: 24px;
+      color: #6b3e1b;
+      margin-bottom: 15px;
+    }
+
+    .solve-section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .solve-section ul {
+      list-style: none;
+      font-size: 18px;
+      text-align: left;
+      max-width: 500px;
+      margin: 0 auto 20px;
+    }
+
+    .solve-section ul li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .solve-section ul li:before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #6b3e1b;
+    }
+
+    /* Product Section */
+    .product-section {
+      padding: 30px 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .product-section h2 {
+      font-size: 24px;
+      color: #6b3e1b;
+      margin-bottom: 15px;
+    }
+
+    .product-section img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    .product-section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* CTA Button */
+    .cta-button {
+      display: inline-block;
+      background-color: #d4a017; /* Emas lembut */
+      color: #fff;
+      padding: 18px 40px; /* Tombol besar untuk mudah diklik */
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #6b3e1b;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #6b3e1b;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 16px;
+    }
+
+    .footer a {
+      color: #f8e1c9;
+      text-decoration: none;
+    }
+
+    /* Mobile Optimization */
+    @media (min-width: 768px) {
+      body {
+        max-width: 600px; /* Membatasi lebar untuk simulasi tampilan mobile */
+        margin: 0 auto;
+      }
+    }
